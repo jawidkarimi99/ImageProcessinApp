@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.log
+
+# Virtual envs
+venv/
+image_app_venv/
+
+# macOS
+.DS_Store
+
+# App artifacts
+output/
+tmp_imgs/
+reports/
+perf_*.txt
+perf_*.csv
+plot_*.png
+load_*.png
+
+# VS Code
+.vscode/
