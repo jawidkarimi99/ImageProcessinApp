@@ -1,24 +1,23 @@
-# Python
+# Python / OS
 __pycache__/
-*.py[cod]
-*.pytest_cache/
-*.log
+*.pyc
+.DS_Store
 
 # Virtual envs
 venv/
 image_app_venv/
 
-# macOS
-.DS_Store
-
-# App artifacts
+# Scratch / generated (safe to ignore CSV/JSON/prof, keep PNGs!)
 output/
+tmp*/
+tmp_*/
 tmp_imgs/
-reports/
+tmp_metrics_out/
+reports/*.csv
+perf_*.prof
+perf_*.json
 perf_*.txt
-perf_*.csv
-plot_*.png
-load_*.png
 
-# VS Code
-.vscode/
+# Big media
+*.mov
+*.mp4
